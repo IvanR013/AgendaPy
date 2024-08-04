@@ -17,7 +17,7 @@ def AddUser():
     
     # Verifica que los campos no estén vacíos
     if not name or not phone or not email:
-        print("Todos los campos son obligatorios. El usuario no ha sido añadido.")
+        print("Todos los campos son obligatorios.")
         return
     
     # Crea un diccionario con las claves correctas
